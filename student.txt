@@ -1,3 +1,3 @@
-student name : your name 
-student number : your student number
-student class : your class
+student name : Lilijana Lokcikaite
+student number : 630574
+student class : IT1B
