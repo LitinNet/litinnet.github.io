@@ -7,8 +7,9 @@ nav
 	{
 	text-transform: uppercase;
 }
-h1
+.Blue,p
 	{
+	background-color: blue;
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 }
