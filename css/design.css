@@ -10,6 +10,10 @@ nav
 .Blue,p
 	{
 	background-color: blue;
+}
+
+h1	
+	{
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 }
