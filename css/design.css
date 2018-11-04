@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 body
 	{	
-	background-image: "movie/background.mp4"
+	width: 100em;
 }
 nav
 	{
@@ -10,6 +10,28 @@ nav
 .Blue,p
 	{
 	background-color: blue;
+}
+
+.imageTitle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15em;
+	background-color: #2699FB;
+}
+
+#backGroundVideo {
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	min-height: 100em;
+}
+
+#logo {
+	align-items: center;
+	object-fit: cover;
+	overflow: hidden;
+	max-height: 10em;
 }
 
 h1	
