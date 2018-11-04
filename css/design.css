@@ -9,6 +9,7 @@ nav
 	justify-content: center;
 	align-items: center;
 	text-transform: uppercase;
+	height: 2em;
 	max-width: 50em;
 	margin: auto;
 	background-color: #707070;
@@ -16,6 +17,7 @@ nav
 }
 
 nav a {
+	margin-left: 1em;
 	text-decoration: none;
 	color: #FFFFFF;
 }
@@ -30,10 +32,11 @@ nav a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 12em;
+	height: 10em;
 	background-color: #2699FB;
 	max-width: 50em;
 	margin: auto;
+	color: #FFFFFF;
 }
 
 .imageBlock {
@@ -69,12 +72,17 @@ nav a {
 }
 
 #logo {
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	object-fit: cover;
 	overflow: hidden;
-	max-height: 10em;
+	height: 10em;
 	max-width: 50em;
 	margin: auto;
+}
+
+#logo img {
+	object-fit: cover;
 }
 
 h1	
