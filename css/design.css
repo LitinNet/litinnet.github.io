@@ -47,6 +47,16 @@ nav a {
 	background-size: cover;
 	background-position: center;
 }
+#grid-container
+{
+	border: solid 1em #FFFFFF;
+	display: grid;
+}
+#article1
+{
+	grid-column: 1/3;
+	background-image: url("../img/product3.jpg");
+}
 
 #entertainmentImage {
 	background-image: url("../img/product3.jpg");
@@ -105,4 +115,16 @@ h1
 h2
 	{
 	text-transform: uppercase;
+}
+p
+	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	height: 2em;
+	max-width: 50em;
+	margin: auto;
+	background-color: #707070;
+	color: #FFFFFF;
 }
