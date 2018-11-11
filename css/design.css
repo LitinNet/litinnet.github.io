@@ -2,6 +2,9 @@
 body
 	{	
 	max-width: 100em;
+    background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	background-size: 98em;
 }
 nav
 	{
@@ -14,6 +17,7 @@ nav
 	margin: auto;
 	background-color: #707070;
 	color: #FFFFFF;
+
 }
 
 nav a {
@@ -38,7 +42,25 @@ nav a {
 	margin: auto;
 	color: #FFFFFF;
 }
-
+.imageTitle2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5em;
+	background-color: #2699FB;
+	max-width: 50em;
+	margin: auto;
+	color: #FFFFFF;
+}
+.logoText {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5em;
+	max-width: 50em;
+	margin: auto;
+	color: #FFFFFF;
+}
 .imageBlock {
 	height: 20em;
 	max-width: 50em;
@@ -48,16 +70,13 @@ nav a {
 	background-position: center;
 }
 #grid-container {
-	border: solid 1em #FFFFFF;
 	display: inline-grid;
-	padding: 1em;
 	display: grid;
+	
 	justify-content: space-evenly;
 	grid-template-columns: auto auto auto;
 }
-.article1 {
-	background-image: url("../img/product3.png");
-}
+
 
 #entertainmentImage {
 	background-image: url("../img/product3.png");
@@ -91,21 +110,31 @@ nav a {
     background-size: cover; 
 }
 
-#logo {
+.logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
 	height: 10em;
-	max-width: 50em;
-	margin: auto;
+	max-width: 60em;
+	margin: auto;	
 }
 
-#logo img {
+.logo img{
 	object-fit: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: center;
+	width: 60em;
+	
+}
+.text-logo{
+	width: 10em;
+	position: relative;
+	text-align: center;
+	right: 30em;
+	white-space: nowrap;
 }
 
 h1	
