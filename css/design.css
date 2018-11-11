@@ -52,15 +52,6 @@ nav a {
 	margin: auto;
 	color: #FFFFFF;
 }
-.logoText {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 5em;
-	max-width: 50em;
-	margin: auto;
-	color: #FFFFFF;
-}
 .imageBlock {
 	height: 20em;
 	max-width: 50em;
@@ -116,7 +107,7 @@ nav a {
 	align-items: center;
 	overflow: hidden;
 	height: 10em;
-	max-width: 60em;
+	max-width: 50em;
 	margin: auto;	
 }
 
