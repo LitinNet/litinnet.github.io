@@ -26,12 +26,6 @@ nav a {
 	color: #FFFFFF;
 }
 
-.Blue,p
-	{
-	background-color: blue;
-
-}
-
 .imageTitle {
 	display: flex;
 	justify-content: center;
@@ -60,12 +54,114 @@ nav a {
 	background-size: cover;
 	background-position: center;
 }
-#grid-container {
-	display: inline-grid;
-	display: grid;
+.article1 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article2 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article3 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article4 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article5 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article6 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article7 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article8 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article9 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article10 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article11 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+.article12 {
+	height: 10em;
+	max-width: 15em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+#flex-container {	
 	
-	justify-content: space-evenly;
-	grid-template-columns: auto auto auto;
+	background-color: #FFFFFF;
+	display: flex;
+	margin: auto;
+	max-width: 50em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-direction: column;
+    align-content: space-between;
+    align-content: space-around;
+    height: 50em;
 }
 
 
@@ -84,7 +180,30 @@ nav a {
 #consoleGamesImage {
 	background-image: url("../img/product9.png");
 }
-
+#cubeImage {
+	background-image: url("../img/product1.png");
+}
+#castleImage {
+	background-image: url("../img/product2.png");
+}
+#pokerImage {
+	background-image: url("../img/product4.png");
+}
+#chessImage {
+	background-image: url("../img/product5.png");
+}
+#dartsImage {
+	background-image: url("../img/product7.png");
+}
+#nintendoImage {
+	background-image: url("../img/product10.png");
+}
+#arcadeImage {
+	background-image: url("../img/product11.png");
+}
+#pingpongImage {
+	background-image: url("../img/product12.png");
+}
 #backGroundVideo {
 	 position: fixed;
     top: 50%;
