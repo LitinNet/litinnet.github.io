@@ -1,11 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-body
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+@media only screen and (max-width: 500px)
+{
+	label
+	{
+		display: block;
+		cursor: pointer;
+	}
+	.menu{
+		text-align: center;
+		width: 100%;
+		display: none;
+	}
+	.menu a {
+		display: block;
+		border-bottom: 1px solid #707070;
+		margin: 0;
+	}
+	#toggle:checked + .menu{
+		display: block;
+	}
+	}
+}
+html, body
 	{	
 	max-width: 100em;
     background-image: url("../img/background.png");
 	background-repeat: no-repeat;
 	background-size: 98em;
 	margin-top: 0px;
+}
+html {
+	font-family: "helvetica";
 }
 nav
 	{
@@ -21,6 +54,23 @@ nav
 	text-align:center;
 	padding: 0;
 	border:0.3px solid #FFFFFF;
+}
+.menu {
+	margin: 0 30px 0 0;
+
+}
+.menu a {
+	clear: left;
+}
+label {
+	margin: 0 40px 0 0;
+	font-size: 1em;
+	width: 26px;
+	float: right;
+
+}
+#toggle {
+	display: none;
 }
 li {
 	list-style-type: none;
