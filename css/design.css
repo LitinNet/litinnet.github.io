@@ -378,7 +378,7 @@ select {
     align-items: center;
     float: right;
  }
- /**pls work work work**/
+ /**applying pretty much default on input and input text bar**/
 input, input[type=text] {
     font-size: 1em;
     border: 0em solid transparent;
@@ -388,12 +388,12 @@ input, input[type=text] {
     padding-left: 2em;
     margin: 0;
  }
- /**pls work work work**/
+ /**no decoration, color is grey**/
  h4{
  	text-decoration: none;
  	color: #707070;
  }
- /**pls work work work**/
+ /**paragraph text is white**/
  p{
  	color: #FFFFFF;
  }
