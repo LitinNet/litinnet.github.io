@@ -264,7 +264,7 @@ h1{
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
-	-webkit-text-stroke: 1.5px black;
+	text-shadow: -1px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1px black;
     color: white;
 	font-size: 3em;
 }
