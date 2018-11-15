@@ -7,7 +7,7 @@
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
-@media screen and (max-width: 360px)
+@media only screen and (max-width: 360px)
 {
 	label
 	{
@@ -27,21 +27,29 @@
 	#toggle:checked + .menu{
 		display: block;
 	}
-	.imageTitle{
+	.imageTitle {
 	height: 100%;
 	max-width: 100%;
 	}
-	.title2{
+	.title2 {
 		display: none;
 	}
-	.title3{
+	.title3 {
 		display: none;
 	}
-	.title4{
+	.title4 {
 		display: none;
+	}
+	.logo{
+		height: 50%;
+		width: 50%;
+	}
+	.logo img{
+		height: 50%;
+		width: 50%;
 	}
 }
-html, body
+body
 	{	
 	max-width: 100em;
     background-image: url("../img/background.png");
@@ -77,8 +85,10 @@ nav
 label {
 	margin: 0 40px 0 0;
 	font-size: 1em;
+	line-height: 70px;
 	width: 26px;
 	float: right;
+	display: none;
 
 }
 #toggle {
@@ -249,6 +259,10 @@ h1
 	-webkit-text-stroke: 1.5px black;
     color: white;
 	font-size: 3em;
+}
+a {
+	text-decoration: none;
+	color: #FFFFFF;
 }
 h2
 	{
