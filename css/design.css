@@ -7,7 +7,7 @@
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
-@media only screen and (max-width: 500px)
+@media screen and (max-width: 360px)
 {
 	label
 	{
@@ -27,6 +27,18 @@
 	#toggle:checked + .menu{
 		display: block;
 	}
+	.imageTitle{
+	height: 100%;
+	max-width: 100%;
+	}
+	.title2{
+		display: none;
+	}
+	.title3{
+		display: none;
+	}
+	.title4{
+		display: none;
 	}
 }
 html, body
@@ -38,7 +50,7 @@ html, body
 	margin-top: 0px;
 }
 html {
-	font-family: "helvetica";
+	font-family: "Arial";
 }
 nav
 	{
