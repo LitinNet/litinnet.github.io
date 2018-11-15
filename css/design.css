@@ -41,22 +41,21 @@
 		display: none;
 	}
 	.logo{
-		height: 50%;
-		width: 50%;
+		height: 100%;
+		width: 100%;
 	}
 	.logo img{
-		height: 50%;
-		width: 50%;
+		height: 100%;
+		width: 100%;
 	}
 }
 body
 	{	
 	max-width: 100em;
-    background-image: url("../img/background.png");
-	background-repeat: no-repeat;
 	background-size: 98em;
 	margin-top: 0px;
 }
+
 html {
 	font-family: "Arial";
 }
@@ -77,10 +76,18 @@ nav
 }
 .menu {
 	margin: 0 30px 0 0;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	padding:10px;
 
 }
 .menu a {
 	clear: left;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	padding: 10px;
 }
 label {
 	margin: 0 40px 0 0;
@@ -162,7 +169,7 @@ nav a {
 	border:0.3px solid #AAAAAA;
 	-webkit-align-items: center;
 }
-
+/*** IMAGERY ***/
 #entertainmentImage {
 	background-image: url("../img/product3.png");
 }
@@ -212,11 +219,28 @@ video {
     height: auto;
     z-index: -100;
     background-repeat: no-repeat;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background-size: cover; 
+}
+/***this is for the index page ***/
+.index-flex-cont{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	z-index: 10;
+
+}
+.index-flex-cont article {
+	width: 100%;
+	flex: 100%;
+	max-width: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+} 
+.index-flex-cont figure .imageBlock {
+	width: 100%;
+	height: auto;
 }
 #flex-container2 {		
 	background-color: #FFFFFF;
@@ -288,6 +312,7 @@ footer{
 	margin: auto;
 	display: flex;
 	align-items: center;
+	font-size: 1em;
 
 }
 form {
@@ -303,6 +328,9 @@ fieldset {
     padding-left: 0.75em;
     padding-right: 0.75em;
     border: 2px groove (internal value);
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 .topic {
@@ -327,7 +355,7 @@ label {
 	justify-content: center;
 }
 input{
-	 top: 0;
+	top: 0;
     left: 0;
     z-index: 1;
     outline: 0;
