@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
@@ -9,11 +10,6 @@
 }
 @media only screen and (max-width: 360px)
 {
-	label
-	{
-		display: block;
-		cursor: pointer;
-	}
 	.menu{
 		text-align: center;
 		width: 100%;
@@ -23,9 +19,6 @@
 		display: block;
 		border-bottom: 1px solid #707070;
 		margin: 0;
-	}
-	#toggle:checked + .menu{
-		display: block;
 	}
 	.imageTitle {
 	height: 100%;
@@ -55,10 +48,11 @@ body
 	background-size: 98em;
 	margin-top: 0px;
 }
-
+/**pls work work work**/
 html {
 	font-family: "Arial";
 }
+/**pls work work work**/
 nav
 	{
 	display: flex;
@@ -74,33 +68,7 @@ nav
 	padding: 0;
 	border:0.3px solid #FFFFFF;
 }
-.menu {
-	margin: 0 30px 0 0;
-	justify-content: center;
-	align-items: center;
-	text-align:center;
-	padding:10px;
-
-}
-.menu a {
-	clear: left;
-	justify-content: center;
-	align-items: center;
-	text-align:center;
-	padding: 10px;
-}
-label {
-	margin: 0 40px 0 0;
-	font-size: 1em;
-	line-height: 70px;
-	width: 26px;
-	float: right;
-	display: none;
-
-}
-#toggle {
-	display: none;
-}
+/**pls work work work**/
 li {
 	list-style-type: none;
 	float: left;
@@ -108,13 +76,13 @@ li {
 	padding: 0;
 	margin: 1em;
 }
-
+/**pls work work work**/
 nav a {
 	margin-left: 1em;
 	text-decoration: none;
 	color: #FFFFFF;
 }
-
+/**pls work work work**/
 .imageTitle {
 	display: flex;
 	justify-content: center;
@@ -124,8 +92,8 @@ nav a {
 	max-width: 50em;
 	margin: auto;
 	color: #FFFFFF;
-	
 }
+/**pls work work work**/
 .imageTitle2 {
 	display: flex;
 	justify-content: center;
@@ -136,6 +104,7 @@ nav a {
 	margin: auto;
 	color: #FFFFFF;
 }
+/**pls work work work**/
 .imageBlock {
 	height: 20em;
 	max-width: 50em;
@@ -144,6 +113,7 @@ nav a {
 	background-size: cover;
 	background-position: center;
 }
+/**pls work work work**/
 #flex-container {		
 	background-color: #FFFFFF;
 	display: flex;
@@ -155,9 +125,8 @@ nav a {
     border:0.3px solid #AAAAAA;
     align-items: center;
     justify-content: center;
- 	
-
 }
+/**pls work work work**/
 .articleCube {
 	height: 10em;
 	max-width: 15em;
@@ -170,45 +139,55 @@ nav a {
 	-webkit-align-items: center;
 }
 /*** IMAGERY ***/
+/**pls work work work**/
 #entertainmentImage {
 	background-image: url("../img/product3.png");
 }
-
+/**pls work work work**/
 #mobileGamesImage {
 	background-image: url("../img/product8.png");
 }
-
+/**pls work work work**/
 #boardGamesImage {
 	background-image: url("../img/product6.png");
 }
-
+/**pls work work work**/
 #consoleGamesImage {
 	background-image: url("../img/product9.png");
 }
+/**pls work work work**/
 #cubeImage {
 	background-image: url("../img/product1.png");
 }
+/**pls work work work**/
 #castleImage {
 	background-image: url("../img/product2.png");
 }
+/**pls work work work**/
 #pokerImage {
 	background-image: url("../img/product4.png");
 }
+/**pls work work work**/
 #chessImage {
 	background-image: url("../img/product5.png");
 }
+/**pls work work work**/
 #dartsImage {
 	background-image: url("../img/product7.png");
 }
+/**pls work work work**/
 #nintendoImage {
 	background-image: url("../img/product10.png");
 }
+/**pls work work work**/
 #arcadeImage {
 	background-image: url("../img/product11.png");
 }
+/**pls work work work**/
 #pingpongImage {
 	background-image: url("../img/product12.png");
 }
+/**pls work work work**/
 video {
 	position: fixed;
     top: 50%;
@@ -222,14 +201,14 @@ video {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover; 
 }
-/***this is for the index page ***/
+/**pls work work work**/
 .index-flex-cont{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	z-index: 10;
-
 }
+/**pls work work work**/
 .index-flex-cont article {
 	width: 100%;
 	flex: 100%;
@@ -238,10 +217,12 @@ video {
 	background-size: cover;
 	background-position: center;
 } 
+/**pls work work work**/
 .index-flex-cont figure .imageBlock {
 	width: 100%;
 	height: auto;
 }
+/**pls work work work**/
 #flex-container2 {		
 	background-color: #FFFFFF;
 	display: flex;
@@ -251,6 +232,7 @@ video {
     align-items: center;
     justify-content: center;
 }
+/**pls work work work**/
 .logo {
 	display: flex;
 	justify-content: center;
@@ -260,6 +242,7 @@ video {
 	max-width: 50em;
 	margin: auto;
 }
+/**pls work work work**/
 .logo img{
 	object-fit: cover;
 	display: flex;
@@ -268,6 +251,7 @@ video {
 	position: center;
 	width: 60em;
 }
+/**pls work work work**/
 .text-logo{
 	width: 10em;
 	position: relative;
@@ -275,8 +259,8 @@ video {
 	right: 38em;
 	white-space: nowrap;	
 }
-h1	
-	{
+/**pls work work work**/
+h1{
 	font-family: 'Josefin Sans', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
@@ -284,16 +268,18 @@ h1
     color: white;
 	font-size: 3em;
 }
+/**pls work work work**/
 a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
-h2
-	{
+/**pls work work work**/
+h2{
 	text-transform: uppercase;
 	font-size: 4em;
 	text-align: center;
 }
+/**pls work work work**/
 footer{
 	display: flex;
 	justify-content: center;
@@ -302,22 +288,24 @@ footer{
 	max-width: 50em;
 	margin: auto;
 	background-color: #000000;
-	color: #FFFFFF;
-
+	font-color: #FFFFFF;
 }
+/**pls work work work**/
 .moreInfo{
-	background-color: #FFFFFF;
+	background-color: #F5F5F5;
 	max-width: 50em;
 	height: 3em;
 	margin: auto;
 	display: flex;
 	align-items: center;
 	font-size: 1em;
-
+	font-color: #AAAAAA;
 }
+/**pls work work work**/
 form {
     width: 45em;
 }
+/**pls work work work**/
 fieldset {
     margin: 1em;
     display: block;
@@ -329,48 +317,52 @@ fieldset {
     padding-right: 0.75em;
     border: 2px groove (internal value);
 }
+/**pls work work work**/
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-.topic {
-    position: relative;
-    justify-content: space-between;
-    color: #AAAAAA;
-   }
-
+/**pls work work work**/
 input[type=submit]{
-
 	background: #2699FB;
 	margin:0 auto;
 	border:0.3px solid #000000;
 	color: #FFFFFF;
 	width: 45em;
 }
+/**pls work work work**/
 * {
   box-sizing: border-box;
 }
+/**pls work work work**/
 label {
 	font-size: 1em;
 	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #707070;
+	padding-left: 2em;
 }
+/**pls work work work**/
 input{
 	top: 0;
     left: 0;
     z-index: 1;
     outline: 0;
 }
+/**pls work work work**/
 textarea {
     width: 100%;
     height: 5em;
     resize: none;
     font-size: 1em;
+    font-family: "Arial";
     overflow: auto;
     outline: none;
     border: 0;
     padding: 0;
-
+    padding-left: 2em;
 }
+/**pls work work work**/
 select {
     width: 30em;
     font-size: 1em;
@@ -382,6 +374,7 @@ select {
     align-items: center;
     float: right;
  }
+ /**pls work work work**/
 input, input[type=text] {
     font-size: 1em;
     border: 0em solid transparent;
@@ -390,4 +383,13 @@ input, input[type=text] {
     padding: 0;
     padding-left: 2em;
     margin: 0;
+ }
+ /**pls work work work**/
+ h4{
+ 	text-decoration: none;
+ 	color: #707070;
+ }
+ /**pls work work work**/
+ p{
+ 	color: #FFFFFF;
  }
