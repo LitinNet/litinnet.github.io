@@ -1,13 +1,16 @@
-
+/**pls work work work**/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+/**pls work work work**/
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
+/**pls work work work**/
 @media screen and (max-width: 768px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
+/**pls work work work**/
 @media only screen and (max-width: 360px)
 {
 	.menu{
@@ -42,6 +45,7 @@
 		width: 100%;
 	}
 }
+/**pls work work work**/
 body
 	{	
 	max-width: 100em;
@@ -222,9 +226,9 @@ video {
 	width: 100%;
 	height: auto;
 }
-/**pls work work work**/
+/**container for the contact page**/
 #flex-container2 {		
-	background-color: #FFFFFF;
+	background-color: #F5F5F5;
 	display: flex;
 	margin: auto;
 	max-width: 50em;
@@ -392,4 +396,8 @@ input, input[type=text] {
  /**pls work work work**/
  p{
  	color: #FFFFFF;
+ }
+  /**doing this silly thing to not show h6**/
+ h6{
+ 	display: none;
  }
