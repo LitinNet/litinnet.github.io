@@ -1,16 +1,16 @@
-/**pls work work work**/
+/**imported font**/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-/**pls work work work**/
+/**attempt for the media screen tbh**/
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
-/**pls work work work**/
+/**attempt on the tablet screen**/
 @media screen and (max-width: 768px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
-/**pls work work work**/
+/**mmobile screen attempt**/
 @media only screen and (max-width: 360px)
 {
 	.menu{
@@ -45,18 +45,18 @@
 		width: 100%;
 	}
 }
-/**pls work work work**/
+/**body with background size element and max width**/
 body
 	{	
 	max-width: 100em;
 	background-size: 98em;
 	margin-top: 0px;
 }
-/**pls work work work**/
+/**setting font family to arial**/
 html {
 	font-family: "Arial";
 }
-/**pls work work work**/
+/**navigation bar, I made the rectange with the border and colored it here**/
 nav
 	{
 	display: flex;
@@ -72,7 +72,7 @@ nav
 	padding: 0;
 	border:0.3px solid #FFFFFF;
 }
-/**pls work work work**/
+/**no list style type, so there are no dots and it is also floating to the left so its in one line**/
 li {
 	list-style-type: none;
 	float: left;
@@ -80,13 +80,13 @@ li {
 	padding: 0;
 	margin: 1em;
 }
-/**pls work work work**/
+/**text of the navigation, removing text decoration so there is no underline and such**/
 nav a {
 	margin-left: 1em;
 	text-decoration: none;
 	color: #FFFFFF;
 }
-/**pls work work work**/
+/**the blue box class with titles of index page**/
 .imageTitle {
 	display: flex;
 	justify-content: center;
@@ -97,7 +97,7 @@ nav a {
 	margin: auto;
 	color: #FFFFFF;
 }
-/**pls work work work**/
+/**blue box for the product page**/
 .imageTitle2 {
 	display: flex;
 	justify-content: center;
