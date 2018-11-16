@@ -1,5 +1,8 @@
 /**imported font**/
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@font-face {
+  	font-family: "Lobster";
+    src: url(../fonts/Lobster-Regular.ttf) format("truetype");
+}
 /**attempt for the media screen tbh**/
 @media screen and (max-width: 1060px) {
     #primary { width:67%; }
@@ -358,7 +361,7 @@ video {
 }
 /**border around the logo text, and selected font**/
 h3{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Lobster', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	text-shadow: -1px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1px black;
