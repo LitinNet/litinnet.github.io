@@ -108,8 +108,9 @@ nav a {
 	margin: auto;
 	color: #FFFFFF;
 }
-/**pls work work work**/
-.imageBlock {
+/**we are entertainment image**/
+.imageBlock1 {
+	background-image: url("../img/product3.png");
 	height: 20em;
 	max-width: 50em;
 	margin: auto;
@@ -117,7 +118,37 @@ nav a {
 	background-size: cover;
 	background-position: center;
 }
-/**pls work work work**/
+/**mobile games image**/
+.imageBlock2 {
+	background-image: url("../img/product8.png");
+	height: 20em;
+	max-width: 50em;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/**board games image**/
+.imageBlock3 {
+	background-image: url("../img/product6.png");
+	height: 20em;
+	max-width: 50em;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/**console games image**/
+.imageBlock4 {
+	background-image: url("../img/product9.png");
+	height: 20em;
+	max-width: 50em;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/**this is the flex container for the product page!**/
 #flex-container {		
 	background-color: #FFFFFF;
 	display: flex;
@@ -130,8 +161,9 @@ nav a {
     align-items: center;
     justify-content: center;
 }
-/**pls work work work**/
-.articleCube {
+/**product page image of the cube**/
+.articleCube1 {
+	background-image: url("../img/product1.png");
 	height: 10em;
 	max-width: 15em;
 	width: 100em;
@@ -142,56 +174,150 @@ nav a {
 	border:0.3px solid #AAAAAA;
 	-webkit-align-items: center;
 }
-/*** IMAGERY ***/
-/**pls work work work**/
-#entertainmentImage {
-	background-image: url("../img/product3.png");
-}
-/**pls work work work**/
-#mobileGamesImage {
-	background-image: url("../img/product8.png");
-}
-/**pls work work work**/
-#boardGamesImage {
-	background-image: url("../img/product6.png");
-}
-/**pls work work work**/
-#consoleGamesImage {
-	background-image: url("../img/product9.png");
-}
-/**pls work work work**/
-#cubeImage {
-	background-image: url("../img/product1.png");
-}
-/**pls work work work**/
-#castleImage {
+/**product page image of the castle**/
+.articleCube2 {
 	background-image: url("../img/product2.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
 }
-/**pls work work work**/
-#pokerImage {
+/**product page image of the mario**/
+.articleCube3 {
+	background-image: url("../img/product3.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
+}
+/**product page image of the poker**/
+.articleCube4 {
 	background-image: url("../img/product4.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
 }
-/**pls work work work**/
-#chessImage {
+/**product page image of the chess**/
+.articleCube5 {
 	background-image: url("../img/product5.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
 }
-/**pls work work work**/
-#dartsImage {
+/**product page image of the board game**/
+.articleCube6 {
+	background-image: url("../img/product6.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
+}
+/**product page image of the darts**/
+.articleCube7 {
 	background-image: url("../img/product7.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
 }
-/**pls work work work**/
-#nintendoImage {
+/**product page image of the candy crush**/
+.articleCube8 {
+	background-image: url("../img/product8.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
+}
+/**product page image of the console**/
+.articleCube9 {
+	background-image: url("../img/product9.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
+}
+/**product page image of the nintendo**/
+.articleCube10 {
 	background-image: url("../img/product10.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
 }
-/**pls work work work**/
-#arcadeImage {
+/**product page image of the arcade**/
+.articleCube11 {
 	background-image: url("../img/product11.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
 }
-/**pls work work work**/
-#pingpongImage {
+/**product page image of the ping pong**/
+.articleCube12 {
 	background-image: url("../img/product12.png");
+	height: 10em;
+	max-width: 15em;
+	width: 100em;
+	margin: 1%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border:0.3px solid #AAAAAA;
+	-webkit-align-items: center;
 }
-/**pls work work work**/
+/**background video**/
 video {
 	position: fixed;
     top: 50%;
@@ -205,27 +331,6 @@ video {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover; 
 }
-/**pls work work work**/
-.index-flex-cont{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	z-index: 10;
-}
-/**pls work work work**/
-.index-flex-cont article {
-	width: 100%;
-	flex: 100%;
-	max-width: 100%;
-	height: auto;
-	background-size: cover;
-	background-position: center;
-} 
-/**pls work work work**/
-.index-flex-cont figure .imageBlock {
-	width: 100%;
-	height: auto;
-}
 /**container for the contact page**/
 #flex-container2 {		
 	background-color: #F5F5F5;
@@ -236,7 +341,7 @@ video {
     align-items: center;
     justify-content: center;
 }
-/**pls work work work**/
+/**logo settings applied!**/
 .logo {
 	display: flex;
 	justify-content: center;
