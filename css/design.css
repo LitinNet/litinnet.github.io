@@ -365,6 +365,7 @@ video {
 	width: 10em;
 	position: relative;
 	text-align: center;
+	justify-content: center;
 	right: 38em;
 	white-space: nowrap;	
 }
@@ -381,6 +382,8 @@ h3{
 a {
 	text-decoration: none;
 	color: #FFFFFF;
+	text-align: center;
+	justify-content: center;
 }
 /**text changed to be uppercase**/
 h2{
