@@ -353,10 +353,11 @@ video {
 /**and that text on the logo**/
 .text-logo{
 	width: 10em;
-	position: flex;
+	position: relative;
 	text-align: center;
 	justify-content: center;
-	z-index: 100;
+	right: 45em;
+
 	white-space: nowrap;	
 }
 /**border around the logo text, and selected font**/
