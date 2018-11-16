@@ -357,7 +357,6 @@ video {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: center;
 	width: 60em;
 }
 /**and that text on the logo**/
@@ -400,7 +399,6 @@ footer{
 	max-width: 50em;
 	margin: auto;
 	background-color: #000000;
-	font-color: #FFFFFF;
 }
 /**made a class for the more info text in the contact page**/
 .moreInfo{
@@ -411,7 +409,6 @@ footer{
 	display: flex;
 	align-items: center;
 	font-size: 1em;
-	font-color: #AAAAAA;
 }
 /**contact page form**/
 form {
@@ -427,7 +424,7 @@ fieldset {
     padding-bottom: 0.625em;
     padding-left: 0.75em;
     padding-right: 0.75em;
-    border: 2px groove (internal value);
+    border: 2px groove;
 }
 /**changing up the sizing**/
 *, *:before, *:after {
