@@ -310,17 +310,17 @@ nav a {
 }
 /**background video**/
 video {
-	position: fixed;
-    top: 50%;
-    left: 50%;
+	position: absolute;
     min-width: 100%;
     min-height: 100%;
+    max-width: 100%;
     width: auto;
     height: auto;
     z-index: -100;
     background-repeat: no-repeat;
-    transform: translateX(-50%) translateY(-50%);
+    transform: left 100% right 100%;
     background-size: cover; 
+    background-position: center;
 }
 /**container for the contact page**/
 #flex-container2 {		
@@ -353,10 +353,10 @@ video {
 /**and that text on the logo**/
 .text-logo{
 	width: 10em;
-	position: relative;
+	position: flex;
 	text-align: center;
 	justify-content: center;
-	right: 40em;
+	z-index: 100;
 	white-space: nowrap;	
 }
 /**border around the logo text, and selected font**/
